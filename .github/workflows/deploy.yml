@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - release/env
       - dev
 env: 
   MONGODB_DB_NAME: "gha-demo"
